@@ -1,0 +1,166 @@
+.heading{
+  text-align: center;
+  font-size: 300%;
+}
+.head_image{
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+}
+.box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 40px;
+  width: 50%;
+  border-style: dotted;
+  border-width: 10px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+.fieldhead{
+  text-align:center; 
+}
+.email{
+  border-radius: 300px;
+  height: 60px;
+  border-color: darkorange;
+  margin-bottom: 20px;
+}
+.button{
+  display: block;
+  margin: 0 auto;
+  opacity: 0.8;
+  border-radius: 20px;
+  background-color: rgb(235, 180, 70);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+.button:hover{
+  background-color: skyblue;
+  
+}
+.change-button
+{
+  display: block;
+      margin: 0 auto;
+      opacity: 0.8;
+      border-radius: 20px;
+      background-color: rgb(235, 180, 70);
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 20px;
+}
+.change-button:hover{
+  background-color: rgb(200, 197, 0);
+}
+.delete-button
+{
+  display: block;
+      margin: 0 auto;
+      opacity: 0.8;
+      border-radius: 20px;
+      background-color: rgb(235, 180, 70);
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+}
+.delete-button:hover{
+  background-color: rgb(195, 0, 0);
+}
+.h{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 0 auto;
+}
+.pre
+{
+  text-align:center;
+  font-size: 15px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inbox
+{
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 500px;
+  border-radius: 20px;
+}
+.img_inbox{
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.footer-heart{
+  margin:0 auto;
+  text-align: center;
+  display: block;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a60202;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  align-items: center;
+
+ 
